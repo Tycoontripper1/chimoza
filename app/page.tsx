@@ -104,7 +104,7 @@ export default function HomePage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/image1.jpg"
+                  src="/school1.jpg"
                   alt="Students learning together at ST CHIMOZA Private School"
                   width={800}
                   height={600}
@@ -289,8 +289,8 @@ export default function HomePage() {
               <Card className="overflow-hidden">
                 <div className="aspect-video relative">
                   <Image
-                    src="/placeholder.svg?height=200&width=400&text=Middle+School+Science"
-                    alt="Middle school science class"
+                    src="/school3.jpg"
+                    alt="Middle school science class at ST CHIMOZA"
                     fill
                     className="object-cover"
                   />
@@ -316,7 +316,7 @@ export default function HomePage() {
               <Card className="overflow-hidden">
                 <div className="aspect-video relative">
                   <Image
-                    src="/image1.jpg"
+                    src="/school4.jpg"
                     alt="College graduation ceremony"
                     fill
                     className="object-cover"

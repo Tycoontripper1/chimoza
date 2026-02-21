@@ -75,7 +75,7 @@ export default function AboutPage() {
     {
       name: "Ms. Emily Rodriguez",
       position: "Dean of Students",
-      image: "/placeholder.svg?height=300&width=300&text=Ms.+Emily+Rodriguez",
+      image: "/school5.jpg",
       bio: "Ms. Rodriguez focuses on student welfare, character development, and creating a positive school culture.",
     },
   ];
@@ -108,7 +108,7 @@ export default function AboutPage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/placeholder.svg?height=500&width=600&text=School+Campus+Building"
+                  src="/school2.jpg"
                   alt="ST CHIMOZA Private School campus"
                   width={600}
                   height={500}
@@ -211,7 +211,7 @@ export default function AboutPage() {
                 <Card key={index} className="overflow-hidden">
                   <div className="aspect-square relative">
                     <Image
-                      src={leader.image || "/placeholder.svg"}
+                      src={leader.image || "/owner.jpeg"}
                       alt={leader.name}
                       fill
                       className="object-cover"

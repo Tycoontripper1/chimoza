@@ -55,7 +55,7 @@ export default function AcademicsPage() {
       grades: "Grades 6-8",
       description:
         "Developing critical thinking skills and preparing students for advanced studies through comprehensive curriculum.",
-      image: "/placeholder.svg?height=400&width=600&text=Middle+School+Lab",
+      image: "/school3.jpg",
       subjects: [
         "Advanced Mathematics",
         "Science Labs",
@@ -78,7 +78,7 @@ export default function AcademicsPage() {
       grades: "Grades 9-12",
       description:
         "College preparation and career readiness through rigorous academics and advanced placement courses.",
-      image: "/image1.jpg",
+      image: "/school4.jpg",
       subjects: [
         "AP Courses",
         "Advanced Sciences",
@@ -270,7 +270,7 @@ export default function AcademicsPage() {
 
                     <div className="relative">
                       <Image
-                        src={program.image || "/placeholder.svg"}
+                        src={program.image || "/school1.jpg"}
                         alt={program.title}
                         width={600}
                         height={400}
