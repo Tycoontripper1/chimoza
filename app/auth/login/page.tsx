@@ -84,7 +84,7 @@ export default function LoginPage() {
       <div className="w-full max-w-sm">
         <Card>
           <CardHeader>
-            <CardTitle className="text-2xl">Login to Omobola School</CardTitle>
+            <CardTitle className="text-2xl">Login to ST CHIMOZA Private School</CardTitle>
             <CardDescription>Enter your credentials to access your account</CardDescription>
           </CardHeader>
           <CardContent>
@@ -100,7 +100,7 @@ export default function LoginPage() {
                   <Input
                     id="email"
                     type="email"
-                    placeholder="your.email@omobolaschool.edu"
+                    placeholder="your.email@stchimoza.edu.ng"
                     required
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}

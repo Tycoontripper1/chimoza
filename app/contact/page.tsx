@@ -61,21 +61,22 @@ export default function ContactPage() {
     {
       icon: MapPin,
       title: "Address",
-      details: ["Adejare Junction, Olomi Olounde Area", "Ibadan", "Nigeria"],
+      details: [
+        "26, Joel Oyeniyi Street, Jerusalem B/Stop",
+        "Off Command Road, Ipaja, Lagos",
+        "Nigeria",
+      ],
     },
     {
       icon: Phone,
       title: "Phone Numbers",
-      details: ["Main Office: +234 8106310368", "Admissions: +234 81039443771"],
+      details: ["Main Office: 09036636199"],
     },
     {
       icon: Mail,
       title: "Email Addresses",
       details: [
-        "omobolagroupofschools123@gmail.com",
-        // "info@omobolaschool.edu",
-        // "admissions@omobolaschool.edu",
-        // "support@omobolaschool.edu",
+        "stchimozasch@gmail.com",
       ],
     },
     {
@@ -93,24 +94,24 @@ export default function ContactPage() {
     {
       icon: GraduationCap,
       title: "Admissions Office",
-      contact: "omobolagroupofschools123@gmail.com",
-      phone: "+234 8106310368",
+      contact: "stchimozasch@gmail.com",
+      phone: "09036636199",
       description:
         "New student enrollment, campus tours, and application assistance.",
     },
     {
       icon: Users,
       title: "Student Services",
-      contact: "omobolagroupofschools123@gmail.com",
-      phone: "+234 81039443771",
+      contact: "stchimozasch@gmail.com",
+      phone: "09036636199",
       description:
         "Current student support, counseling, and academic assistance.",
     },
     {
       icon: MessageSquare,
       title: "Parent Relations",
-      contact: "omobolagroupofschools123@gmail.com",
-      phone: "+234 81039443771",
+      contact: "stchimozasch@gmail.com",
+      phone: "09036636199",
       description:
         "Parent communication, volunteer opportunities, and school events.",
     },
@@ -119,17 +120,17 @@ export default function ContactPage() {
   return (
     <>
       <Head>
-        <title>Omobola School | Building Future Leaders</title>
+        <title>ST CHIMOZA Private School | Contact Us</title>
         <meta
           name="description"
-          content="Excellence in education, character development, and community engagement at Omobola School."
+          content="Contact ST CHIMOZA Private School for admissions, tours, and general inquiries."
         />
         <meta
           name="keywords"
-          content="school in Nigeria, quality education, omobolaschool"
+          content="school in Nigeria, quality education, stchimoza, private school Lagos"
         />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://omobolaschool.com.ng/" />
+        <link rel="canonical" href="https://stchimoza.com.ng/" />
       </Head>
       <div className="flex flex-col">
         {/* Hero Section */}
@@ -140,12 +141,12 @@ export default function ContactPage() {
                 Contact Us
               </Badge>
               <h1 className="text-4xl lg:text-5xl font-bold text-balance leading-tight">
-                Get in <span className="text-primary">Touch</span> with Omobola
-                Group Of School
+                Get in <span className="text-primary">Touch</span> with ST CHIMOZA
+                Private School
               </h1>
               <p className="text-xl text-muted-foreground text-pretty leading-relaxed">
                 We're here to answer your questions, schedule campus visits, and
-                help you discover how Omobola School can be the perfect fit for
+                help you discover how ST CHIMOZA Private School can be the perfect fit for
                 your child's educational journey.
               </p>
             </div>
@@ -394,7 +395,7 @@ export default function ContactPage() {
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3">
                     <MapPin className="h-5 w-5 text-primary" />
-                    <span>Adejare Junction, Olomi Olounde Area, Ibadan</span>
+                    <span>26, Joel Oyeniyi Street, Jerusalem B/Stop, Off Command Road, Ipaja, Lagos</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Clock className="h-5 w-5 text-primary" />

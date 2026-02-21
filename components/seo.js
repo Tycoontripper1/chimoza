@@ -1,10 +1,10 @@
 import Head from "next/head";
 
 export function SEO({
-  title = "Omobola School | Building Future Leaders",
-  description = "Excellence in education, character development, and community engagement at Omobola School.",
-  keywords = "school in Nigeria, quality education, omobolaschool",
-  url = "https://omobolaschool.com.ng",
+  title = "ST CHIMOZA Private School | Building Future Leaders",
+  description = "Excellence in education, character development, and community engagement at ST CHIMOZA Private School.",
+  keywords = "school in Nigeria, quality education, stchimoza, private school Lagos",
+  url = "https://stchimoza.com.ng",
   logo = "/logo.png", // in /public folder
   schema = true, // enable schema by default
 }) {
@@ -38,18 +38,18 @@ export function SEO({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "School",
-              name: "Omobola Group Of Schools",
+              name: "ST CHIMOZA Private School",
               url: url,
               logo: `${url}${logo}`,
               address: {
                 "@type": "PostalAddress",
-                streetAddress: "123 Main Street",
-                addressLocality: "Lagos",
+                streetAddress: "26, Joel Oyeniyi Street, Jerusalem B/Stop, Off Command Road",
+                addressLocality: "Ipaja, Lagos",
                 addressCountry: "NG",
               },
               sameAs: [
-                "https://facebook.com/omobolaschool",
-                "https://instagram.com/omobolaschool",
+                "https://facebook.com/stchimoza",
+                "https://instagram.com/stchimoza",
               ],
               description: description,
             }),

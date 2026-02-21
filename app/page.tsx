@@ -26,38 +26,38 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <title>Omobola School | Building Future Leaders</title>
+        <title>ST CHIMOZA Private School | Building Future Leaders</title>
         <meta
           name="description"
-          content="Excellence in education, character development, and community engagement at Omobola School."
+          content="Excellence in education, character development, and community engagement at ST CHIMOZA Private School."
         />
         <meta
           name="keywords"
-          content="school in Nigeria, quality education, omobolaschool"
+          content="school in Nigeria, quality education, stchimoza, private school Lagos"
         />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://omobolaschool.com.ng/" />
+        <link rel="canonical" href="https://stchimoza.com.ng/" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "School",
-              name: "Omobola Group Of Schools",
-              url: "https://omobolaschool.com.ng",
-              logo: "https://omobolaschool.com.ng/logo.png", // update if you have a real logo
+              name: "ST CHIMOZA Private School",
+              url: "https://stchimoza.com.ng",
+              logo: "https://stchimoza.com.ng/logo.png",
               address: {
                 "@type": "PostalAddress",
-                streetAddress: "123 Main Street",
-                addressLocality: "Lagos",
+                streetAddress: "26, Joel Oyeniyi Street, Jerusalem B/Stop, Off Command Road",
+                addressLocality: "Ipaja, Lagos",
                 addressCountry: "NG",
               },
               sameAs: [
-                "https://facebook.com/omobolaschool",
-                "https://instagram.com/omobolaschool",
+                "https://facebook.com/stchimoza",
+                "https://instagram.com/stchimoza",
               ],
               description:
-                "Excellence in education, character development, and community engagement at Omobola School.",
+                "Excellence in education, character development, and community engagement at ST CHIMOZA Private School.",
             }),
           }}
         />
@@ -75,7 +75,7 @@ export default function HomePage() {
                   <h1 className="text-4xl lg:text-6xl font-bold text-balance leading-tight">
                     Welcome to{" "}
                     <span className="text-primary">
-                      Omobola Group Of School
+                      ST CHIMOZA Private School
                     </span>{" "}
                     – Building Future Leaders
                   </h1>
@@ -105,7 +105,7 @@ export default function HomePage() {
               <div className="relative">
                 <Image
                   src="/image1.jpg"
-                  alt="Students learning together at Omobola School"
+                  alt="Students learning together at ST CHIMOZA Private School"
                   width={800}
                   height={600}
                   className="rounded-2xl shadow-2xl"
@@ -154,7 +154,7 @@ export default function HomePage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center space-y-4 mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-balance">
-                Why Choose Omobola School?
+                Why Choose ST CHIMOZA Private School?
               </h2>
               <p className="text-xl text-muted-foreground text-pretty max-w-3xl mx-auto">
                 We provide a comprehensive educational experience that nurtures

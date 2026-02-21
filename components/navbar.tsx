@@ -40,17 +40,17 @@ export function Navbar() {
           {/* Logo and School Name */}
           <div className="flex items-center space-x-3">
             <Image
-              src="/logo.jpeg"
-              alt="Omobola School Logo"
+              src="/logo.png"
+              alt="ST CHIMOZA Private School Logo"
               width={50}
               height={50}
-              className="rounded-full"
+              className="object-contain"
             />
             <Link
               href="/"
               className="text-xl font-bold text-primary hover:text-primary/80 transition-colors"
             >
-              Omobola Group Of School
+              ST CHIMOZA Private School
             </Link>
           </div>
 

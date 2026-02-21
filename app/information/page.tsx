@@ -125,17 +125,17 @@ export default function InformationPage() {
   return (
     <>
       <Head>
-        <title>Omobola School | Building Future Leaders</title>
+        <title>ST CHIMOZA Private School | School Information</title>
         <meta
           name="description"
-          content="Excellence in education, character development, and community engagement at Omobola School."
+          content="Excellence in education, character development, and community engagement at ST CHIMOZA Private School."
         />
         <meta
           name="keywords"
-          content="school in Nigeria, quality education, omobolaschool"
+          content="school in Nigeria, quality education, stchimoza, private school Lagos"
         />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://omobolaschool.com.ng/" />
+        <link rel="canonical" href="https://stchimoza.com.ng/" />
       </Head>
       <div className="flex flex-col">
         {/* Hero Section */}
@@ -147,7 +147,7 @@ export default function InformationPage() {
               </Badge>
               <h1 className="text-4xl lg:text-5xl font-bold text-balance leading-tight">
                 Everything You Need to{" "}
-                <span className="text-primary">Know</span> About Omobola School
+                <span className="text-primary">Know</span> About ST CHIMOZA Private School
               </h1>
               <p className="text-xl text-muted-foreground text-pretty leading-relaxed">
                 Comprehensive information about admissions, policies, services,

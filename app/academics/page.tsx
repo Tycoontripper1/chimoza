@@ -145,17 +145,17 @@ export default function AcademicsPage() {
   return (
     <>
       <Head>
-        <title>Omobola School | Building Future Leaders</title>
+        <title>ST CHIMOZA Private School | Academic Programs</title>
         <meta
           name="description"
-          content="Excellence in education, character development, and community engagement at Omobola School."
+          content="Explore academic programs at ST CHIMOZA Private School for excellence in education."
         />
         <meta
           name="keywords"
-          content="school in Nigeria, quality education, omobolaschool"
+          content="school in Nigeria, quality education, stchimoza, private school Lagos"
         />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://omobolaschool.com.ng/" />
+        <link rel="canonical" href="https://stchimoza.com.ng/academics" />
       </Head>
       <div className="flex flex-col">
         {/* Hero Section */}

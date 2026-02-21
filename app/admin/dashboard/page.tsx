@@ -40,7 +40,7 @@ export default async function AdminDashboard() {
           <div className="flex justify-between items-center py-6">
             <div>
               <h1 className="text-2xl font-bold text-gray-900">Admin Dashboard</h1>
-              <p className="text-gray-600">Manage Omobola School system</p>
+              <p className="text-gray-600">Manage ST CHIMOZA Private School system</p>
             </div>
             <div className="flex items-center gap-4">
               <span className="text-sm text-gray-600">Welcome, Admin</span>

@@ -61,10 +61,10 @@ export default function AboutPage() {
 
   const leadership = [
     {
-      name: "Dr. Sarah Johnson",
-      position: "Principal",
-      image: "/placeholder.svg?height=300&width=300&text=Dr.+Sarah+Johnson",
-      bio: "With over 20 years in education, Dr. Johnson brings innovative leadership and a passion for student success to Omobola School.",
+      name: "Proprietress",
+      position: "Owner & Proprietress",
+      image: "/owner.jpeg",
+      bio: "The visionary founder of ST CHIMOZA Private School, dedicated to providing quality education and nurturing future leaders in Ipaja, Lagos.",
     },
     {
       name: "Mr. Olalere Babatunde",
@@ -83,9 +83,9 @@ export default function AboutPage() {
   return (
     <>
       <SEO
-        title="About Omobola School"
-        description="Learn about our mission, vision, and values at Omobola School."
-        url="https://omobolaschool.com.ng/about"
+        title="About ST CHIMOZA Private School"
+        description="Learn about our mission, vision, and values at ST CHIMOZA Private School."
+        url="https://stchimoza.com.ng/about"
       />
       <div className="flex flex-col">
         {/* Hero Section */}
@@ -94,14 +94,14 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-6">
                 <Badge variant="secondary" className="w-fit">
-                  About Omobola Group Of School
+                  About ST CHIMOZA Private School
                 </Badge>
                 <h1 className="text-4xl lg:text-5xl font-bold text-balance leading-tight">
                   Our Story of <span className="text-primary">Excellence</span>{" "}
                   and <span className="text-secondary">Innovation</span>
                 </h1>
                 <p className="text-xl text-muted-foreground text-pretty leading-relaxed">
-                  For over two decades, Omobola School has been dedicated to
+                  For over two decades, ST CHIMOZA Private School has been dedicated to
                   nurturing young minds, building character, and preparing
                   students for success in an ever-changing world.
                 </p>
@@ -109,7 +109,7 @@ export default function AboutPage() {
               <div className="relative">
                 <Image
                   src="/placeholder.svg?height=500&width=600&text=School+Campus+Building"
-                  alt="Omobola School campus"
+                  alt="ST CHIMOZA Private School campus"
                   width={600}
                   height={500}
                   className="rounded-2xl shadow-xl"
@@ -254,7 +254,7 @@ export default function AboutPage() {
                 <div>
                   <h3 className="text-xl font-semibold">Foundation</h3>
                   <p className="text-muted-foreground">
-                    Omobola School was established with a vision to provide
+                     ST CHIMOZA Private School was established with a vision to provide
                     quality education to the community.
                   </p>
                 </div>

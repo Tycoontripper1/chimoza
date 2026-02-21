@@ -102,15 +102,15 @@ export default function StudentLoginPage() {
         {/* School Logo & Title */}
         <div className="text-center space-y-4">
           <Image
-            src="/logo.jpeg"
-            alt="Omobola School Logo"
+            src="/logo.png"
+            alt="ST CHIMOZA Private School Logo"
             width={80}
             height={80}
-            className="mx-auto rounded-full"
+            className="mx-auto object-contain"
           />
           <div>
             <h1 className="text-2xl font-bold text-secondary">
-              Omobola School
+              ST CHIMOZA Private School
             </h1>
             <p className="text-muted-foreground">Student Portal</p>
           </div>
@@ -188,7 +188,7 @@ export default function StudentLoginPage() {
                       onChange={(e) =>
                         handleInputChange("email", e.target.value)
                       }
-                      placeholder="your.email@omobolaschool.edu"
+                      placeholder="your.email@stchimoza.edu.ng"
                       className="pl-10"
                       required
                       disabled={isLoading}
@@ -276,7 +276,7 @@ export default function StudentLoginPage() {
                 Student ID: STU001 / Password: student123
               </p>
               <p className="text-xs font-mono">
-                Email: student1@omobolaschool.edu / Password: student123
+                Email: student1@stchimoza.edu.ng / Password: student123
               </p>
             </div>
           </CardContent>

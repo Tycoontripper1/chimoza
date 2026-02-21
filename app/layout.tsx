@@ -9,8 +9,8 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Omobola School - Building Future Leaders",
-  description: "Excellence in education, character development, and community engagement at Omobola School.",
+  title: "ST CHIMOZA Private School - Building Future Leaders",
+  description: "Excellence in education, character development, and community engagement at ST CHIMOZA Private School.",
   generator: "v0.app",
 }
 

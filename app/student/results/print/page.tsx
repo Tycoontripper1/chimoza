@@ -101,7 +101,7 @@ export default function PrintResultsPage() {
       <div className="max-w-4xl mx-auto p-8 print:p-4">
         {/* Header */}
         <div className="text-center mb-8 print:mb-6">
-          <h1 className="text-3xl font-bold text-primaryRed mb-2">Omobola School</h1>
+          <h1 className="text-3xl font-bold text-primary mb-2">ST CHIMOZA Private School</h1>
           <p className="text-lg text-gray-600 mb-4">Academic Report Card</p>
           <div className="border-t border-b border-gray-300 py-4">
             <h2 className="text-xl font-semibold">{student?.full_name}</h2>
@@ -184,7 +184,7 @@ export default function PrintResultsPage() {
         {/* Footer */}
         <div className="mt-12 print:mt-8 text-center text-sm text-gray-600">
           <p>Generated on {new Date().toLocaleDateString()}</p>
-          <p className="mt-2">Omobola School - Building Future Leaders</p>
+          <p className="mt-2">ST CHIMOZA Private School - Building Future Leaders</p>
         </div>
       </div>
 

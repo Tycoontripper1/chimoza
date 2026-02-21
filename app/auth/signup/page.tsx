@@ -77,10 +77,10 @@ export default function SignUpPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primaryBlue/10 to-primaryRed/10 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-primary/10 to-secondary/10 flex items-center justify-center p-4">
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
-          <CardTitle className="text-2xl font-bold text-primaryBlue">Join Omobola School</CardTitle>
+          <CardTitle className="text-2xl font-bold text-primary">Join ST CHIMOZA Private School</CardTitle>
           <CardDescription>Create your account to access the school portal</CardDescription>
         </CardHeader>
         <CardContent>
@@ -150,7 +150,7 @@ export default function SignUpPage() {
 
             {error && <div className="text-sm text-red-600 bg-red-50 p-3 rounded-md">{error}</div>}
 
-            <Button type="submit" className="w-full bg-primaryBlue hover:bg-primaryBlue/90" disabled={isLoading}>
+            <Button type="submit" className="w-full" disabled={isLoading}>
               {isLoading ? "Creating Account..." : "Create Account"}
             </Button>
           </form>

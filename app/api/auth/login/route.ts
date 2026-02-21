@@ -3,12 +3,12 @@ import { type NextRequest, NextResponse } from "next/server"
 // Mock user database - in production, this would be a real database
 const mockUsers = {
   staff: [
-    { id: "1", email: "teacher@omobolaschool.edu", password: "password123", name: "John Smith", role: "staff" },
-    { id: "2", email: "admin@omobolaschool.edu", password: "admin123", name: "Sarah Johnson", role: "staff" },
+    { id: "1", email: "teacher@stchimoza.edu.ng", password: "password123", name: "John Smith", role: "staff" },
+    { id: "2", email: "admin@stchimoza.edu.ng", password: "admin123", name: "Sarah Johnson", role: "staff" },
   ],
   student: [
-    { id: "STU001", email: "student1@omobolaschool.edu", password: "student123", name: "Alice Brown", role: "student" },
-    { id: "STU002", email: "student2@omobolaschool.edu", password: "student456", name: "Bob Wilson", role: "student" },
+    { id: "STU001", email: "student1@stchimoza.edu.ng", password: "student123", name: "Alice Brown", role: "student" },
+    { id: "STU002", email: "student2@stchimoza.edu.ng", password: "student456", name: "Bob Wilson", role: "student" },
   ],
   parent: [
     { id: "1", email: "parent1@gmail.com", password: "parent123", name: "Mary Brown", role: "parent" },

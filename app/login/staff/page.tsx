@@ -95,14 +95,14 @@ export default function StaffLoginPage() {
         {/* School Logo & Title */}
         <div className="text-center space-y-4">
           <Image
-            src="/logo.jpeg"
-            alt="Omobola School Logo"
+            src="/logo.png"
+            alt="ST CHIMOZA Private School Logo"
             width={80}
             height={80}
-            className="mx-auto rounded-full"
+            className="mx-auto object-contain"
           />
           <div>
-            <h1 className="text-2xl font-bold text-primary">Omobola School</h1>
+            <h1 className="text-2xl font-bold text-primary">ST CHIMOZA Private School</h1>
             <p className="text-muted-foreground">Staff Portal</p>
           </div>
         </div>
@@ -136,7 +136,7 @@ export default function StaffLoginPage() {
                     type="email"
                     value={formData.email}
                     onChange={(e) => handleInputChange("email", e.target.value)}
-                    placeholder="your.email@omobolaschool.edu"
+                    placeholder="your.email@stchimoza.edu.ng"
                     className="pl-10"
                     required
                     disabled={isLoading}
@@ -217,10 +217,10 @@ export default function StaffLoginPage() {
                 Demo Credentials:
               </p>
               <p className="text-xs font-mono">
-                teacher@omobolaschool.edu / password123
+                teacher@stchimoza.edu.ng / password123
               </p>
               <p className="text-xs font-mono">
-                admin@omobolaschool.edu / admin123
+                admin@stchimoza.edu.ng / admin123
               </p>
             </div>
           </CardContent>

@@ -16,7 +16,7 @@ export function Footer() {
           {/* School Info */}
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-primary">
-              Omobola School
+              ST CHIMOZA Private School
             </h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Building future leaders through excellence in education, character
@@ -133,19 +133,19 @@ export function Footer() {
               <div className="flex items-center space-x-3">
                 <MapPin className="h-4 w-4 text-primary flex-shrink-0" />
                 <span className="text-sm text-muted-foreground">
-                  Adejare Junction, Olomi Olounde Area, Ibadan
+                  26, Joel Oyeniyi Street, Jerusalem B/Stop, Off Command Road, Ipaja, Lagos
                 </span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-primary flex-shrink-0" />
                 <span className="text-sm text-muted-foreground">
-                  +234 8106310368
+                  09036636199
                 </span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-primary flex-shrink-0" />
                 <span className="text-sm text-muted-foreground">
-                  info@omobolaschool.edu
+                  stchimozasch@gmail.com
                 </span>
               </div>
             </div>
@@ -155,7 +155,7 @@ export function Footer() {
         <div className="mt-8 pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-muted-foreground">
-              © 2024 Omobola School. All rights reserved.
+              © 2024 ST CHIMOZA Private School. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <Link
