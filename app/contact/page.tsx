@@ -70,7 +70,7 @@ export default function ContactPage() {
     {
       icon: Phone,
       title: "Phone Numbers",
-      details: ["Main Office: 09036636199"],
+      details: ["Main Office: 09033288569"],
     },
     {
       icon: Mail,
@@ -95,7 +95,7 @@ export default function ContactPage() {
       icon: GraduationCap,
       title: "Admissions Office",
       contact: "stchimozasch@gmail.com",
-      phone: "09036636199",
+      phone: "09033288569",
       description:
         "New student enrollment, campus tours, and application assistance.",
     },
@@ -103,7 +103,7 @@ export default function ContactPage() {
       icon: Users,
       title: "Student Services",
       contact: "stchimozasch@gmail.com",
-      phone: "09036636199",
+      phone: "09033288569",
       description:
         "Current student support, counseling, and academic assistance.",
     },
@@ -111,7 +111,7 @@ export default function ContactPage() {
       icon: MessageSquare,
       title: "Parent Relations",
       contact: "stchimozasch@gmail.com",
-      phone: "09036636199",
+      phone: "09033288569",
       description:
         "Parent communication, volunteer opportunities, and school events.",
     },

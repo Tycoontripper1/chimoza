@@ -139,7 +139,7 @@ export function Footer() {
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-primary flex-shrink-0" />
                 <span className="text-sm text-muted-foreground">
-                  09036636199
+                  09033288569
                 </span>
               </div>
               <div className="flex items-center space-x-3">

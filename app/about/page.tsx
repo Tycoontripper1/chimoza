@@ -66,18 +66,18 @@ export default function AboutPage() {
       image: "/owner.jpeg",
       bio: "The visionary founder of ST CHIMOZA Private School, dedicated to providing quality education and nurturing future leaders in Ipaja, Lagos.",
     },
-    {
-      name: "Mr. Olalere Babatunde",
-      position: "Vice Principal",
-      image: "/principal.jpeg",
-      bio: "Mr. Olalere oversees curriculum development and ensures our academic programs meet the highest standards of excellence.",
-    },
-    {
-      name: "Ms. Emily Rodriguez",
-      position: "Dean of Students",
-      image: "/school5.jpg",
-      bio: "Ms. Rodriguez focuses on student welfare, character development, and creating a positive school culture.",
-    },
+    // {
+    //   name: "Mr. Olalere Babatunde",
+    //   position: "Vice Principal",
+    //   image: "/principal.jpeg",
+    //   bio: "Mr. Olalere oversees curriculum development and ensures our academic programs meet the highest standards of excellence.",
+    // },
+    // {
+    //   name: "Ms. Emily Rodriguez",
+    //   position: "Dean of Students",
+    //   image: "/school5.jpg",
+    //   bio: "Ms. Rodriguez focuses on student welfare, character development, and creating a positive school culture.",
+    // },
   ];
 
   return (
@@ -108,7 +108,7 @@ export default function AboutPage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/school2.jpg"
+                  src="/school1.jpg"
                   alt="ST CHIMOZA Private School campus"
                   width={600}
                   height={500}
