@@ -76,7 +76,7 @@ export default function ContactPage() {
       icon: Mail,
       title: "Email Addresses",
       details: [
-        "stchimozasch@gmail.com",
+        "stchimoza@gmail.com",
       ],
     },
     {
@@ -94,7 +94,7 @@ export default function ContactPage() {
     {
       icon: GraduationCap,
       title: "Admissions Office",
-      contact: "stchimozasch@gmail.com",
+      contact: "stchimoza@gmail.com",
       phone: "09033288569",
       description:
         "New student enrollment, campus tours, and application assistance.",
@@ -102,7 +102,7 @@ export default function ContactPage() {
     {
       icon: Users,
       title: "Student Services",
-      contact: "stchimozasch@gmail.com",
+      contact: "stchimoza@gmail.com",
       phone: "09033288569",
       description:
         "Current student support, counseling, and academic assistance.",
@@ -110,7 +110,7 @@ export default function ContactPage() {
     {
       icon: MessageSquare,
       title: "Parent Relations",
-      contact: "stchimozasch@gmail.com",
+      contact: "stchimoza@gmail.com",
       phone: "09033288569",
       description:
         "Parent communication, volunteer opportunities, and school events.",
